@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="amazeshop" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\phani\\OneDrive\\Documents\\Visual\ Studio\ 2015\\Projects\\AmazeShop\\AmazeShop\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\phani\\OneDrive\\Documents\\Visual\ Studio\ 2015\\Projects\\AmazeShop\\AmazeShop\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-AmazeShop-20161204021434.mdf;Initial Catalog=aspnet-AmazeShop-20161204021434;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\phani\\OneDrive\\Documents\\Visual\ Studio\ 2015\\Projects\\AmazeShop\\AmazeShop\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="AmazeShop-Web.config Connection String" description="AmazeShop Connection String used in web.config by the application to access the database." value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-AmazeShop-20161204021434.mdf;Initial Catalog=aspnet-AmazeShop-20161204021434;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\phani\\OneDrive\\Documents\\Visual\ Studio\ 2015\\Projects\\AmazeShop\\AmazeShop\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AmazeShop']/@connectionString" />
+  </parameter>
+  <parameter name="amazeshopdb-Web.config Connection String" description="amazeshopdb Connection String used in web.config by the application to access the database." value="Data Source=amazeshop.database.windows.net;Initial Catalog=amazeshop;Integrated Security=False;User ID=amazeshop;Password=********;Connect Timeout=15;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\phani\\OneDrive\\Documents\\Visual\ Studio\ 2015\\Projects\\AmazeShop\\AmazeShop\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='amazeshopdb']/@connectionString" />
+  </parameter>
+</parameters>
